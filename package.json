@@ -1,5 +1,14 @@
 {
   "devDependencies": {
     "prisma": "^5.19.1"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.19.1"
+  },
+  "prisma": {
+    "seed": "node prisma/seed.js"
+  },
+  "scripts": {
+    "start:dev": "nodemon server.js"
   }
 }
