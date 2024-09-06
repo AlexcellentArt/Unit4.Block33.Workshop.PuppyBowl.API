@@ -12,8 +12,8 @@ const seed = async () => {
       { name: "rover",breed:"german shepard",status:"field" },
       { name: "sparky",breed:"golden retriever",status:"field" },
       { name: "igor",breed:"experiment",status:"bench" },
-      { name: "scooby",breed:"great dane",status:"kitchen" },
-      { name: "krypto",breed:"super",status:"sky" }
+      { name: "scooby",breed:"great dane",status:"bench" },
+      { name: "krypto",breed:"super",status:"field" }
     ];
     await prisma.player.createMany({ data: players });
   };
